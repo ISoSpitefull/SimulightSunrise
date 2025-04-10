@@ -4,11 +4,11 @@
 :Revision: version#
 :License: Public Domain
 
-= Project: {Project}
+= Simulight Sunrise
 
-Describe your project
+The Sunrise SimuLight is an alarm clock project designed to combat the challenges of waking up in regions where natural sunlight is scarce during early mornings, such as polar winters or densely overcast climates. By simulating the gradual, radiant glow of a sunrise, this device helps users start their day feeling refreshed and aligned with their body’s natural circadian rhythm, even though the real sun remains hidden for hours.
 
-== Step 1: Installation
+== Step 1: Setup
 Please describe the steps to install this project.
 
 For example:
@@ -21,7 +21,7 @@ For example:
 
 Assemble the circuit following the diagram layout.png attached to the sketch
 
-== Step 3: Load the code
+== Step 3: Upload Code and WiFi Setting
 
 Upload the code contained in this sketch on to your board
 
