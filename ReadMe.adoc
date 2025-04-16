@@ -9,13 +9,12 @@
 The Sunrise SimuLight is an alarm clock project designed to combat the challenges of waking up in regions where natural sunlight is scarce during early mornings, such as polar winters or densely overcast climates. By simulating the gradual, radiant glow of a sunrise, this device helps users start their day feeling refreshed and aligned with their body’s natural circadian rhythm, even though the real sun remains hidden for hours.
 
 == Step 1: Setup
-Please describe the steps to install this project.
+Please use either for uploading/maintaining code.
+1. Arduino Cloud @ app.arduino.cc
+2. Arduino IDE 2.x installed on your machine.
 
-For example:
-
-1. Open this file
-2. Edit as you like
-3. Release to the World!
+3. Setup connections on a breadboard.
+4. Upload code and make connections as required.
 
 == Step 2: Assemble the circuit
 
@@ -23,7 +22,7 @@ Assemble the circuit following the diagram layout.png attached to the sketch
 
 == Step 3: Upload Code and WiFi Setting
 
-Upload the code contained in this sketch on to your board
+Upload the code contained in this sketch on to your board with your wifi settings in the correct fields.
 
 === Folder structure
 
@@ -36,19 +35,18 @@ Upload the code contained in this sketch on to your board
 ....
 
 === License
-This project is released under a {License} License.
+This project is released under an MIT License.
 
 === Contributing
 To contribute to this project please contact: 
 
 === BOM
-Add the bill of the materials you need for this project.
-
 |===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10       
-| L1 | Red LED        | 2345-asdf   | 5        
-| A1 | Arduino Zero   | ABX00066    | 1        
+| ID | Part name                             | Quantity
+| E1 | ESP32 Devkit V1                       | 1       
+| L1 | 400W 15A Mosfet Module                | 1        
+| A1 | DS3231 RTC Module                     | 1
+| D1 | SparkFun 7-Segment Serial Display     | 1
 |===
 
 
