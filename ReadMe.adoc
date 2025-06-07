@@ -1,6 +1,6 @@
 :Author: nikhil_iso
 :Email:
-:Date: 03/02/2025
+:Date: 06/07/2025
 :Revision: version#
 :License: Public Domain
 
@@ -28,26 +28,31 @@ Upload the code contained in this sketch on to your board with your wifi setting
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  âââ sketch123.ino       => main Arduino file
-  âââ schematics.png      => (optional) an image of the required schematics
-  âââ layout.png          => (optional) an image of the layout
-  âââ ReadMe.adoc         => this file
+SAC_2025                        => Arduino sketch folder
+  ↳ SAC_2025.ino                => main Arduino file
+    arduino_secrets.h           => Arduino Secrets file
+    sketch.json
+    thingProperties.h
+schematics.png                  => (optional) an image of the required schematics
+ReadMe.adoc                     => this file
 ....
 
 === License
 This project is released under an MIT License.
 
 === Contributing
-To contribute to this project please contact: 
+To contribute to this project please reach out. 
 
 === BOM
 |===
-| ID | Part name                             | Quantity
-| E1 | ESP32 Devkit V1                       | 1       
-| L1 | 400W 15A Mosfet Module                | 1        
-| A1 | DS3231 RTC Module                     | 1
-| D1 | SparkFun 7-Segment Serial Display     | 1
+|  ID  | Part name                             | Quantity
+|  E1  | ESP32 Devkit V1                       | 1       
+|  HW  | 400W 15A Mosfet Module                | 1        
+| RTC1 | DS3231 RTC Module                     | 1
+|  D1  | SparkFun 7-Segment Serial Display     | 1
+| DCIN | 12v Power Supply                      | 1        
+|  SW  | Momentary Push Buttons                | 3
+|      | DC Out (XT60, DC Barrel, Screw term)  | 1
 |===
 
 
