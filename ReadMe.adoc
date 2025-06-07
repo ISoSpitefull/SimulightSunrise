@@ -14,11 +14,12 @@ Please use either for uploading/maintaining code.
 2. Arduino IDE 2.x installed on your machine.
 
 3. Setup connections on a breadboard.
-4. Upload code and make connections as required.
+4. Make connections as required and upload the code.
+5. Input your SSID, "SECRET_DEVICE_KEY", and other setup in the "arduino_secrets.h" file.
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+Assemble the circuit following the diagram "Schematic-SAC2025.png" attached to the repository.
 
 == Step 3: Upload Code and WiFi Setting
 
