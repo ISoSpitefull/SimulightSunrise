@@ -14,7 +14,8 @@ Please use either for uploading/maintaining code.
 2. Arduino IDE 2.x installed on your machine.
 
 3. Setup connections on a breadboard or proto-board.
-![schematic](https://github.com/ISoSpitefull/SimulightSunrise/blob/main/Schematic-SAC2025.png "Wiring Schematic")
+![schematic](https://github.com/ISoSpitefull/SimulightSunrise/blob/main/Schematic-SAC2025.png?raw=true "Wiring Schematic")
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 4. Make connections as required and upload the code.
 5. Input your SSID, "SECRET_DEVICE_KEY", and other setup in the "arduino_secrets.h" file.
